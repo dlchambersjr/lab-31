@@ -1,17 +1,15 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
-=================================================
+## Lab-31 Application State
 
-## Project Name
-
-### Author: Student/Group Name
+### Author: David Chambers / Code Fellows Instruction Team
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/dlchambersjr/lab-31)
+* [Connect to a store](https://codesandbox.io/s/n05pmvq11m)
+* [Create a new reducer](https://codesandbox.io/s/m59jx9lo9y)
+* [New Reducer Testing](https://codesandbox.io/s/m59jx9lo9y?previewwindow=tests)
 
 ### Modules
+**WILL BE ADDED AFTER TESTING IS COMPLETE**
 #### `modulename.js`
 ##### Exported Values and Methods
 
@@ -21,22 +19,19 @@ Usage Notes or examples
 ###### `bar(array) -> array`
 Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+**NOTE:** *I'm having trouble getting testing to work.  I will be testing for the following*
+* Test `<Numbers />` 
+ 1. Test state after CHANGE button click
+ 2. Test DOM change after CHANGE button click
+ 3. Test state after RESET button click
+ 4. Test DOM change after RESET button click
+
+* Test `<App/>` 
+ 1. Test state after CHANGE button click
+ 2. Test DOM change after CHANGE button click
+ 3. Test state after RESET button click
+ 4. Test DOM change after RESET button click
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML]()
