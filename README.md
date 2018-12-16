@@ -34,4 +34,4 @@ Usage Notes or examples
  4. Test DOM change after RESET button click
 
 #### UML
-![UML]()
+![UML](https://raw.githubusercontent.com/dlchambersjr/lab-31/master/lab-31-uml.jpg)
